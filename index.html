@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="style.css">
+    <title>Pic Game</title>
+</head>
+<body>
+    <div class = "title">
+        <h1>Raxmonov Husniddin (link) </h1>
+    </div>
+
+    <div class="container ">
+        <section class = "section player_1 active">
+            <h1 class = "section-player">PLAYER 1</h1>
+            <h1 class = "section-score score-1">0</h1>
+            <div class = "section-current ">
+                <p class = "section-current-text">Current</p>
+                <h2 class = "section-current-score current-1" >0</h2>
+            </div>
+
+        </section>
+        <section class = "section player_2">
+            <h1 class = "section-player">PLAYER 2</h1>
+            <h1 class = "section-score score-2">0</h1>
+            <div class = "section-current ">
+                <p class = "section-current-text">Current</p>
+                <h2 class = "section-current-score current-2" >0</h2>
+            </div>
+
+        </section>
+
+        <div class="reset">
+            <img src="reset.png" alt="reset" width="25px" height="25px"> <span class = "span">NEW GAME</span>
+        </div>
+        <button  id = "roll-dice"  class="roll-dice">
+            <img  src="dices.png" alt="dices" width="25px" height="25px"> <span class = "span">ROLL DICE</span>
+        </button>
+        <button class="hold">
+            <img src="add.png" alt="dices" width="25px" height="25px"> <span class = "span"> HOLD</span>
+        </button>
+
+        <div  class="dice-image hidden ">
+            <img  id = "roll-dice-image"  src="1.png" alt="dice" width="70" height="70">
+        </div>
+    
+    </div>
+
+    <script src="app.js" ></script>
+</body>
+</html>
